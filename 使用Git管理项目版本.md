@@ -1,8 +1,10 @@
-使用Git管理项目版本
-1、git 配置
+#使用Git管理项目版本
+##1、git 配置
+···
 vagrant@homestead:~/Code$ git config --global user.name "jinhesui"
 vagrant@homestead:~/Code$ git config --global user.email "980172200@qq.com"
 vagrant@homestead:~/Code$ git config --global push.default simple
+···
 --global 选项代表对 Git 进行全局设置
 2、github托管项目
 生成SSH密钥
