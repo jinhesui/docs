@@ -123,18 +123,18 @@ alt和title即对应HTML中的alt和title属性（都可省略）：
 
 URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了，如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
 ```
-https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+https://github.com/jinhesui/docs/raw/master/GIT%E5%91%BD%E4%BB%A4%E6%A6%82%E8%A7%88%E5%9B%BE.jpg
 ```
 
 |#|语法|效果|
 |---|---|----
 |1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|2|`![][foryou]`|![][foryou]
+|2|`![][test]`|![][test]
 
 注意例2的写法使用了**URL标识符**的形式，在[链接](#链接)一节有介绍。
->在文末有foryou的定义：
+>在文末有test的定义：
 ```
-[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+[test]:https://github.com/jinhesui/docs/raw/master/GIT%E5%91%BD%E4%BB%A4%E6%A6%82%E8%A7%88%E5%9B%BE.jpg
 ```
 
 链接
